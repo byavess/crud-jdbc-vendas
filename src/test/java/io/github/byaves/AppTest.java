@@ -1,4 +1,4 @@
-package org.example;
+package io.github.byaves;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
