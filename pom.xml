@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>Spring_Vendas</artifactId>
+    <artifactId>JDBC_Vendas</artifactId>
     <packaging>jar</packaging>
 
 
@@ -43,6 +43,12 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
 
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
